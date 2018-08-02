@@ -1,0 +1,9 @@
+
+.gitignore
+.idea/inspectionProfiles/
+.idea/workspace.xml
+cryptocurrency/crypto/__pycache__/
+cryptocurrency/cryptocurrency/__pycache__/
+venv/
+db.sqlite3
+migrations
