@@ -14,12 +14,12 @@ Some pictures from the app:
 
 Instructions to run:
 
-`python -m venv venv`
+* `python -m venv venv`
 
-`source ./venv/bin/activate`
+* `source ./venv/bin/activate`
 
-`python manage.py runserver`
+* `python manage.py runserver`
 
 Requirements:
 
-`Python 3.5.2 +`
+* `Python 3.5.2 +`
