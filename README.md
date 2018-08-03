@@ -6,7 +6,11 @@ Thanks
 
 Some pictures from the app:
 
--
+![1](https://github.com/laith43d/cryptocurrencynews/blob/master/1.png)
+![1](https://github.com/laith43d/cryptocurrencynews/blob/master/2.png)
+![1](https://github.com/laith43d/cryptocurrencynews/blob/master/3.png)
+![1](https://github.com/laith43d/cryptocurrencynews/blob/master/4.png)
+
 
 Instructions to run:
 
