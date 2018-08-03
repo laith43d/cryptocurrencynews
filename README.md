@@ -1,8 +1,6 @@
 Crypto Currency News site
 
-This is a test site to satisfy the requirement for tasks given by Ahmed Alaa from IQDevs Facebook group.
-
-One thing is missing, which is the multi-lingual part which I haven't the time to finish.
+This is a test site to explore Django and crypto currency APIs.
 
 Thanks
 
