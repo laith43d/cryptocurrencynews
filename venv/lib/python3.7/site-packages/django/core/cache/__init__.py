@@ -39,8 +39,7 @@ def _create_cache(backend, **kwargs):
                 # Trying to import the given backend, in case it's a dotted path
                 import_string(backend)
             except ImportError as e:
-                raise InvalidCacheBackendError("Could not find backend '%s': %s" % (
-                    backend, e))
+                raise InvalidCacheBackendError(f"Could not find backend '{backend}': {e}")
             location = kwargs.pop('LOCATION', '')
             params = kwargs
         else:
@@ -49,8 +48,7 @@ def _create_cache(backend, **kwargs):
             location = params.pop('LOCATION', '')
         backend_cls = import_string(backend)
     except ImportError as e:
-        raise InvalidCacheBackendError(
-            "Could not find backend '%s': %s" % (backend, e))
+        raise InvalidCacheBackendError(f"Could not find backend '{backend}': {e}")
     return backend_cls(location, params)
 
 
@@ -73,7 +71,7 @@ class CacheHandler:
 
         if alias not in settings.CACHES:
             raise InvalidCacheBackendError(
-                "Could not find config for '%s' in settings.CACHES" % alias
+                f"Could not find config for '{alias}' in settings.CACHES"
             )
 
         cache = _create_cache(alias)
